@@ -28,7 +28,7 @@ jobs:
 
       - name: Lint with Ruff
         run: |
-          ruff .
+          ruff check .
 
       - name: Test with pytest
         run: |
